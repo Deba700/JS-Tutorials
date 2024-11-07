@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Cricket game</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> BAT BALL STUMP GAME </h1>
+    <button onclick="
+    console.log('you have chossen bat');
+    //this will generate random number between 0 and 3;
+    let randomNumber=Math.random()*3;
+    if ( randomNumber>0 && randomNumber<=1){
+        let computerchoice='bat'
+        console.log('computer chice is bat');
+    }
+    else if(randomNumber>1 && randomNumber<=2){
+        let computerchoice='ball'
+        console.log('computer choice is ball');
+    }
+    else{
+        let computerchoice='stump'
+        console.log('computer choise is stump');
+    }
+
+
+
+
+    ">🏏bat</button>
+
+
+
+
+    <button>🔴ball</button>
+    <button>stump</button>
+
+</body>
+</html>
